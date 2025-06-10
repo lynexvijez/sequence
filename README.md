@@ -1,5 +1,5 @@
-📘 Arithmetic Sequence Generator – Python Documentation
-🔍 Overview
+## 📘 Arithmetic Sequence Generator – Python Documentation
+### 🔍 Overview
 This simple Python script generates an arithmetic sequence based on three user-defined parameters:
 
 Starting number (start)
@@ -40,9 +40,7 @@ d is the common difference (increment)
 n is the term number
 
 🧾 Code Explanation
-python
-Copy
-Edit
+
 start = 5            # The first number in the sequence
 increment = 3        # The fixed amount added to each term
 terms = 8            # Total number of elements to generate
@@ -63,18 +61,14 @@ terms = 8
 
 Step 2: Use a list comprehension to generate the sequence:
 
-python
-Copy
-Edit
+
 [start + i * increment for i in range(terms)]
 This generates each term by adding the product of the index i and increment to the start value.
 
 Step 3: Output the sequence using print().
 
 ✅ Output
-css
-Copy
-Edit
+
 Your sequence... [5, 8, 11, 14, 17, 20, 23, 26]
 Each number is created by repeatedly adding 3 to the previous term, starting from 5.
 
